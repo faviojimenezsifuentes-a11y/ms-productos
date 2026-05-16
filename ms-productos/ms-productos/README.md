@@ -97,3 +97,8 @@ Construir imagen Docker
 docker build -t ms-productos .
 Ejecutar contenedor
 docker run -p 8080:8080 ms-productos
+Despliegue en Render
+
+Microservicio desplegado usando Render.
+
+URL pública: https://ms-productos-c2k3.onrender.com/api/productos
