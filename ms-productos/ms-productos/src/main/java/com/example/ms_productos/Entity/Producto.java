@@ -20,4 +20,5 @@ public class Producto {
     private Integer stock;
     private Boolean estado;
     private LocalDateTime fechaCreacion;
+    private String imagenUrl;
 }
