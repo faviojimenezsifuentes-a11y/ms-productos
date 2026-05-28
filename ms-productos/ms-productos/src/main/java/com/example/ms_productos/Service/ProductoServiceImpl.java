@@ -44,7 +44,7 @@ public class ProductoServiceImpl implements ProductoService {
     public Producto actualizarProducto(Long id, ProductoRequestDTO dto) {
 
         Producto producto = obtenerProductoPorId(id);
-
+        producto.setImagenUrl(dto.getImagenUrl());
         producto.setNombre(dto.getNombre());
         producto.setDescripcion(dto.getDescripcion());
         producto.setPrecio(dto.getPrecio());
