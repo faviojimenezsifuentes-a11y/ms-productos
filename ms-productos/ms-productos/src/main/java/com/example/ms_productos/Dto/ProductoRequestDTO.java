@@ -21,5 +21,7 @@ public class ProductoRequestDTO {
     private Integer stock;
     @NotNull(message = "El estado es obligatorio")
     private Boolean estado;
+    
+    private String imagenUrl;
 
 }
