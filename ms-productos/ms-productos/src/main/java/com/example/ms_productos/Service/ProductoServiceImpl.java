@@ -22,6 +22,7 @@ public class ProductoServiceImpl implements ProductoService {
                 .stock(dto.getStock())
                 .estado(dto.getEstado())
                 .fechaCreacion(LocalDateTime.now())
+                .imagenUrl(dto.getImagenUrl())
                 .build();
 
         return repository.save(producto);
